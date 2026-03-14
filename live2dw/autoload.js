@@ -5,7 +5,7 @@
 
 // Recommended to use absolute path for live2d_path parameter
 // live2d_path 参数建议使用绝对路径
-const live2d_path = 'https://fastly.jsdelivr.net/npm/live2d-widgets@1.0.0-rc.6/dist/';
+//const live2d_path = 'https://fastly.jsdelivr.net/npm/live2d-widgets@1.0.0-rc.6/dist/';
 // const live2d_path = '/dist/';
 
 // Method to encapsulate asynchronous resource loading
@@ -60,7 +60,7 @@ function loadExternalResource(url, type) {
     waifuPath: '/live2dw/' + 'waifu-tips.json',
     // cdnPath: 'https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/',
     cubism2Path: '/live2dw/' + 'live2d.min.js',
-    cubism5Path: 'https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js',
+    cubism5Path: 'https://registry.npmmirror.com/live2d-cubism-core/1.0.0-rc.1/files/dist/live2dcubismcore.min.js',
     tools: ['hitokoto', 'switch-model', 'switch-texture', 'photo'],
     logLevel: 'error',
     drag: true,
