@@ -23,6 +23,7 @@ function loadExternalResource(url, type) {
       tag = document.createElement('script');
       tag.type = 'module';
       tag.src = url;
+       
     }
     if (tag) {
       tag.onload = () => resolve(url);
@@ -49,10 +50,8 @@ function loadExternalResource(url, type) {
   // Load waifu.css and waifu-tips.js
   // 加载 waifu.css 和 waifu-tips.js
   await Promise.all([
-  
     loadExternalResource('/live2dw/' + 'waifu.css', 'css'),
-    loadExternalResource('/live2dw/'  + 'waifu-tips.js', 'js')
-    
+    loadExternalResource('/live2dw/'  + 'waifu-tips.js', 'js'),
   ]);
   // For detailed usage of configuration options, see README.en.md
   // 配置选项的具体用法见 README.md
