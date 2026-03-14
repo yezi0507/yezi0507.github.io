@@ -48,21 +48,6 @@
     "selector": ".site-author",
     "text": ["我家主人好看吗？", "这是我家主人(*´∇｀*)"]
   }, {
-    "selector": ".site-state",
-    "text": ["这是文章的统计信息～", "要不要点进去看看？"]
-  }, {
-    "selector": ".feed-link a",
-    "text": ["这里可以使用 RSS 订阅呢！", "利用 feed 订阅器，就能快速知道博客有没有更新了呢。"]
-  }, {
-    "selector": ".cc-opacity, .post-copyright-author",
-    "text": ["要记得规范转载哦。", "所有文章均采用 CC BY-NC-SA 4.0 许可协议～", "转载前要先注意下文章的版权协议呢。"]
-  }, {
-    "selector": ".links-of-author",
-    "text": ["这里是主人的常驻地址哦。", "这里有主人的联系方式！"]
-  }, {
-    "selector": ".followme",
-    "text": ["手机扫一下就能继续看，很方便呢～", "扫一扫，打开新世界的大门！"]
-  }, {
     "selector": ".fancybox img, img.medium-zoom-image",
     "text": ["点击图片可以放大呢！"]
   }, {
@@ -102,12 +87,6 @@
     "selector": ".reward-container",
     "text": ["我是不是棒棒哒～快给我点赞吧！", "要打赏我嘛？好期待啊～", "主人最近在吃土呢，很辛苦的样子，给他一些钱钱吧～"]
   }, {
-    "selector": "#wechat",
-    "text": ["这是我的微信二维码～"]
-  }, {
-    "selector": "#alipay",
-    "text": ["这是我的支付宝哦！"]
-  }, {
     "selector": "#bitcoin",
     "text": ["这是我的比特币账号！"]
   }, {
@@ -116,15 +95,6 @@
   }, {
     "selector": ".need-share-button_weibo",
     "text": ["微博？来分享一波喵！"]
-  }, {
-    "selector": ".need-share-button_wechat",
-    "text": ["分享到微信吧！"]
-  }, {
-    "selector": ".need-share-button_douban",
-    "text": ["分享到豆瓣好像也不错！"]
-  }, {
-    "selector": ".need-share-button_qqzone",
-    "text": ["QQ 空间，一键转发，耶～"]
   }, {
     "selector": ".need-share-button_twitter",
     "text": ["Twitter？好像是不存在的东西？"]
@@ -164,12 +134,6 @@
   }, {
     "selector": ".vpreview-btn",
     "text": ["要预览一下你的发言吗？", "快看看你的评论有多少负熵！"]
-  }, {
-    "selector": ".vsubmit",
-    "text": ["评论没有审核，要对自己的发言负责哦～", "要提交了吗，请耐心等待回复哦～"]
-  }, {
-    "selector": ".vcontent",
-    "text": ["哇，快看看这个精彩评论！", "如果有疑问，请尽快留言哦～"]
   }],
   "click": [{
     "selector": ".veditor",
@@ -177,6 +141,9 @@
   }, {
     "selector": ".back-top",
     "text": ["这么快就读完啦"]
+  },  {
+    "selector": ".copy-btn",
+    "text": ["希望这段code对你有帮助"]
   }, {
     "selector": ".vsubmit",
     "text": ["输入验证码就可以提交评论啦～"]
